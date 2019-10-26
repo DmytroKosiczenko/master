@@ -1,6 +1,10 @@
 [remote "master"]
-	url = https://github.com/DmytroKosiczenko/master
+	url = ssh://DmytroKosiczenko@github.com/DmytroKosiczenko/master
 	fetch = +refs/heads/*:refs/remotes/master/*
 [remote "origin"]
-	url = https://github.com/DmytroKosiczenko/master
+	url = ssh://DmytroKosiczenko@github.com/DmytroKosiczenko/master
 	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "origin/master"]
+	url = ssh://DmytroKosiczenko@github.com/DmytroKosiczenko/master
+	url = ssh://git@github.com/DmytroKosiczenko/master
+	fetch = +refs/heads/*:refs/remotes/origin/master/*
