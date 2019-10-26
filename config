@@ -1,0 +1,6 @@
+[remote "master"]
+	url = https://github.com/DmytroKosiczenko/master
+	fetch = +refs/heads/*:refs/remotes/master/*
+[remote "origin"]
+	url = https://github.com/DmytroKosiczenko/master
+	fetch = +refs/heads/*:refs/remotes/origin/*
